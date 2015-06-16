@@ -23,5 +23,6 @@ int main(int argc, char *argv[])
 		printf("state %d: %s\n", i,states[i]);
 		i++;
 	}
-	return 0;
+	return 1;
+	//added in branch
 }
