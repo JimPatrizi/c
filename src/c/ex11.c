@@ -19,7 +19,13 @@ int main(int argc, char *argv[])
 	}
 
 	//int num_states = sizeof(argc);
-	i = 0;
+
+
+
+
+
+	
+	i = 1;
 	while(i<sizeof(states)){
 		printf("state %d: %s\n", i,states[i]);
 		i++;
