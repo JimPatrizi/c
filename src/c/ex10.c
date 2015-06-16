@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 		"Ohio","Indiana","Pennyslvania",NULL//Texas
 	};
 	//argv[0]=states[2];
-	//argv[1]=states[1];
+	//argv[1]=states[1]; this changed some
 
 	for(int i = 0; i <argc;i++){
 		printf("arg %d: %s\n",i,argv[i]);
