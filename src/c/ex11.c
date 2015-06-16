@@ -17,15 +17,8 @@ int main(int argc, char *argv[])
 		printf("state%d \n",i);
 		i++;
 	}
-
 	//int num_states = sizeof(argc);
-
-
-
-
-
-	
-	i = 1;
+	i = 0;
 	while(i<sizeof(states)){
 		printf("state %d: %s\n", i,states[i]);
 		i++;
