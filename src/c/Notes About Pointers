@@ -1,0 +1,29 @@
+Notes About Pointers
+
+int a; //variable
+int *p; //pointer that points to an address of an int type address us 64
+
+p= &a; // this returns a pointer or rather an address of a to the pointer variable p. has an address of 204 say,
+
+a = 5; 
+
+print p : what is the value of p?
+204
+
+print &a
+204
+
+print &p 
+64
+
+print *p
+5 //this is called dereferencing
+
+*p = 8
+
+print a
+8
+
+//p address
+//*p value at address
+//video https://www.youtube.com/watch?v=h-HBipu_1P0
