@@ -2,27 +2,28 @@
 
 int main(int argc, char *argv[])
 {
-	/*
-	int i = 0;
-	while(i<argc){
-		printf("argc %d : %s\n",i,argv[i]);
-		i++;
-	}
-	*/
-	//this is something to add
-	char *states[100] ={};
-	int i=0;
-	while(i<argc){
-		states[i]=argv[i];
-		printf("state%d \n",i);
-		i++;
-	}
-	//int num_states = sizeof(argc);
-	i = 0;
-	while(i<sizeof(states)){
-		printf("state %d: %s\n", i,states[i]);
-		i++;
-	}
-	return 1;
-	//added in branch
+    // go through each string in argv
+
+    int i = argc - 1;
+    while (i >= 0) {
+        printf("arg %d: %s\n", i, argv[i]);
+        i--;
+    }
+
+    // let's make our own array of strings
+    char *states[] = {
+        "California", "Oregon",
+        "Washington", "Texas"
+    };
+
+    int num_states = 4;
+
+    // watch for this
+    i = num_states - 1;
+    while (i >= 0) {
+        printf("state %d: %s\n", i, states[i]);
+        i--;
+    }
+
+    return 0;
 }
