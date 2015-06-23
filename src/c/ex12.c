@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
 
 	else if(argc > 1 && argc <4){
 		printf("Here's your arguments:\n");
-		for(int i = 1; i < argc ; i++){
+		for(int i = 1; i < argc ; i++){//made i =1 so that a null argument would not be printed.
 			printf("%s ",argv[i]);
 		}
 		printf("\n");
